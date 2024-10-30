@@ -44,7 +44,7 @@
                                 </svg>
                             </span>Rinterio</a>
                     </div>
-                    <ul class="flex gap-4">
+                    <ul class="md:flex gap-4 hidden">
                         <li class="text-black font-bold">Home</li>
                         <li>Service</li>
                         <li>Portfolio</li>
@@ -52,7 +52,12 @@
                         <li>Contact Us</li>
                     </ul>
                 </div>
-                <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-10 bg-white rounded-full mx-2 p-2 md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <div class="md:flex items-center gap-2 hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-8 rounded-full p-1 bg-white">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -79,13 +84,13 @@
                 <div>
                     <img src="./assets/banner.png" alt="" class="mx-auto h-96">
                 </div>
-                <div class="w-4/6 mx-auto text-center py-6">
-                    <h1 class="text-6xl font-bold">A barn house of this design has a striking appearance</h1>
+                <div class="md:w-4/6 mx-auto text-center py-6">
+                    <h1 class="md:text-6xl text-4xl font-bold">A barn house of this design has a striking appearance</h1>
                     <br>
                     <p class="w-5/6 mx-auto">The barn house captivates with its blend of rustic charm and modern
                         sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the
                         space with natural light.</p>
-                    <div class="md:w-2/12 mx-auto my-8 flex items-center gap-2 bg-lime-200 px-4 py-2 rounded-3xl">
+                    <div class="md:w-44 md:mx-auto mx-4 my-8 flex items-center justify-center gap-2 bg-lime-200 px-4 py-2 rounded-3xl">
                         <button class="font-bold">Book Consult</button>
                         <span class="bg-lime-400 rounded-full p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -102,25 +107,27 @@
     <main>
         <!-- about us section -->
         <section class="bg-gray-200 py-20">
-            <div class="container mx-auto flex items-center justify-center">
-                <div class="w-6/12">
-                    <div class="md:w-36 flex items-center justify-center gap-2 bg-white p-2 rounded-3xl">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg>
-                        <h1 class="font-bold text-lg">About Us</h1>
+            <div class="container mx-auto md:flex items-center justify-center">
+                <div class="md:w-6/12">
+                    <div class="flex justify-center md:justify-start">
+                        <div class="w-36 flex items-center justify-center gap-2 bg-white p-2 rounded-3xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            <h1 class="font-bold text-lg">About Us</h1>
+                        </div>
                     </div>
-                    <div class="mt-10">
-                        <h1 class="text-6xl text-gray-800 leading-normal font-extrabold">We design thoughtful
+                    <div class="mt-10 text-center md:text-left">
+                        <h1 class="md:text-6xl text-4xl  text-gray-800 leading-normal font-extrabold">We design thoughtful
                             <br>liveable spaces
                         </h1>
                         <br>
                         <p class="text-neutral-600">The barn house captivates with its blend of rustic charm and
                             modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     </div>
-                    <div class="flex items-center py-4 px-8 my-6 bg-base-200 rounded-lg">
+                    <div class="flex items-center py-4 px-8 my-6 mx-2 bg-base-200 rounded-lg">
                         <div class="">
                             <img src="./assets/commercial.png" alt="">
                         </div>
@@ -130,7 +137,7 @@
                                 charm and modern.</p>
                         </div>
                     </div>
-                    <div class="flex items-center py-4 px-8 my-6 bg-base-200 rounded-lg">
+                    <div class="flex items-center py-4 px-8 mx-2 my-6 bg-base-200 rounded-lg">
                         <div class="">
                             <img src="./assets/residential.png" alt="">
                         </div>
@@ -141,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-6/12">
+                <div class="md:w-6/12 mx-2">
                     <img src="./assets/Rectangle.png" alt="" class="mx-auto">
                 </div>
             </div>
